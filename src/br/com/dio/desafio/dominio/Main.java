@@ -14,6 +14,9 @@ public class Main {
         curso2.setDescricao("descrição curso js");
         curso2.setCargaHoraria(4);
 
+        // Conteudo conteudo = new Curso(); // Polimorfismo
+        // Conteudo conteudo = new Mentoria();
+
         Mentoria mentoria = new Mentoria();
         mentoria.setTitulo("mentoria de java");
         mentoria.setDescricao("descrição mentoria java");
